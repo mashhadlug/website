@@ -1,0 +1,244 @@
+@font-face {
+  font-family: nassim23;
+  src: url('/website/assets/fonts/nassim-regular.eot');
+  src: url('/website/assets/fonts/nassim-regular.eot?#iefix') format('embedded-opentype'),
+       url('/website/assets/fonts/nassim-regular.woff') format('woff'),
+       url('/website/assets/fonts/nassim-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: nassim23-bold;
+  src: url('/website/assets/fonts/nassim-bold.eot');
+  src: url('/website/assets/fonts/nassim-bold.eot?#iefix') format('embedded-opentype'),
+       url('/website/assets/fonts/nassim-bold.woff') format('woff'),
+       url('/website/assets/fonts/nassim-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #333;
+  font-family: nassim23;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: nassim23-bold;
+}
+
+.cover {
+  background: url(/website/assets/images/wide-image.jpg) no-repeat center center;
+  /*position: fixed;*/
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.cover .logo {
+  width: 100%;
+  text-align: right;
+  padding: 10px;
+}
+.cover .slogan {
+  height: 350px;
+  text-align: center;
+  margin-top: 30px;
+}
+.cover .slogan h1 {
+  font-size: 3em;
+  margin: 0px auto;
+  font-weight: bold;
+  text-shadow: 0px 2px 0px #FFF;
+  color: #C0392B;
+}
+.cover .slogan h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #464646;
+}
+
+ul.top-navbar {
+  text-align: center; /* this will center the list items */
+  margin-bottom: 20px;
+  border-bottom: 5px solid #FF7B1F;
+  display: inline-block;
+}
+ul.top-navbar li {
+  display: inline-block; /* the key bit */
+  *display: inline; /* IE7 hack */
+  *zoom: 1; /* IE7 hack */
+  padding: 5px;
+  margin: 10px 0px;
+}
+ul.top-navbar li.active {
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+ul.top-navbar li a {
+  text-decoration: none;
+  color: #333;
+}
+ul.top-navbar li span {
+  font-size: 2em;
+}
+ul.top-navbar li img {
+  margin-bottom: 5px;
+  width: 46px;
+}
+ul.top-navbar li h4 {
+  margin: 0px;
+  font-size: 1.3em;
+}
+ul.top-navbar li p {
+  font-size: 1em;
+  margin: 0px;
+}
+
+.welcome .well {
+  margin-top: 0px;
+  background: #FF7B1F;
+  color: #FFF;
+  border-radius: 0px;
+  border: none;
+  text-align: center;
+  font-size: 1.3em;
+  color: #EEEEEE;
+}
+.welcome .well img{
+  float:right;
+}
+
+.footer {
+  background: url(/website/assets/images/footer_bg.png);
+  padding: 30px 0px 0px 0px;
+  margin-top: 50px;
+  color: #808080;
+}
+.footer h4{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed;
+}
+.footer p{
+  margin-bottom: 20px;  
+}
+.footer a{
+  color: #767676;
+  text-shadow: 0px 2px 0px #262626;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #FF7500;
+}
+.footer ul {
+  text-align: center;
+  padding: 0px;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer .dark {
+  opacity: 0.4;
+  background: none repeat scroll 0% 0% #131313;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer .copyright {
+  color:white;
+}
+.footer .copyright p{
+  margin: 0px;
+}
+
+.timer {
+  list-style:none ;
+  text-align: center;
+  padding: 0px;
+}
+.timer li {
+  display: inline-block;
+  min-width: 40px;
+  padding: 5px;
+}
+
+.content {
+}
+.content .row.title {
+  margin: 20px 0px 40px;
+}
+.content h2 em {
+  display: block;
+  color: #767676;
+  font-size: 16px;
+  margin:5px 0px;
+}
+.content h2 {
+  margin-bottom: 0px;
+}
+.content .row.description p {
+  text-align: justify;
+}
+.content img{
+  margin: 0px auto;
+}
+
+.activities {
+}
+.activities .activity{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.activities .activity h3{
+  margin: 10px 0px;
+  height: 1.1em;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.activities .activity img{
+  margin: 0px auto;
+}
+
+.page h3,
+.page h2 {
+  margin-bottom: 0px;
+}
+.page h3 em,
+.page h2 em {
+  display: block;
+  color: #767676;
+  font-size: 16px;
+  margin:5px 0px;
+}
+
+pre {
+  background: #363636;
+  direction: ltr;
+  margin: 10px 0px;
+}
+pre code {
+  color: #52E020;
+}
+
+.articles {
+}
+.artile .article {
+}
+.articles .article h3 {
+  font-size: 18px;
+}
+.articles .article h2 {
+  font-size: 20px;
+}
+.articles .article h2 em,
+.articles .article h3 em {
+  display: block;
+  color: #767676;
+  font-size: 16px;
+  margin:5px 0px;
+}
+
+.event-timer {
+  text-align: center;
+}
