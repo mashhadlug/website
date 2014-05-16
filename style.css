@@ -208,16 +208,17 @@ ul.top-navbar li p {
 }
 .activities .activity{
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
-.activities .activity h3{
+.activities .activity h4{
   margin: 10px 0px;
-  height: 1.1em;
-  overflow: hidden;
-  margin-bottom: 5px;
+  line-height: 1.5em;
+  margin-bottom: 15px;
 }
 .activities .activity img{
   margin: 0px auto;
+  max-width: 400px;
+  max-height: 190px;
 }
 
 .page h3,
@@ -241,18 +242,18 @@ pre code {
   color: #52E020;
 }
 
-.articles {
+.reports {
 }
-.artile .article {
+.reports .report {
 }
-.articles .article h3 {
+.reports .report h3 {
   font-size: 18px;
 }
-.articles .article h2 {
+.reports .report h2 {
   font-size: 20px;
 }
-.articles .article h2 em,
-.articles .article h3 em {
+.reports .report h2 em,
+.reports .report h3 em {
   display: block;
   color: #767676;
   font-size: 16px;
