@@ -41,6 +41,9 @@ h1, h2, h3, h4, h5, h6 {
   left:0;
   z-index: -1;
 }
+.cover.mini {
+  border-bottom: 5px solid #FF7B1F;
+}
 .cover .logo {
   width: 100%;
   text-align: right;
