@@ -262,4 +262,37 @@ pre code {
 
 .event-timer {
   text-align: center;
+  margin: 10px;
+  padding: 0px;
+}
+.event-timer li {
+  display: inline-block;
+  padding: 10px 10px 0px 10px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  width: 2.5em;
+}
+.event-timer li span {
+  font-size: .5em;
+  display: block;
+  color: #868686;
+  border-top: 1px solid;
+  margin-top: 5px;
+}
+
+.latest_reports {
+  border-top: 5px solid #FF7B1F;
+  font-size: 14px;
+  padding-top: 20px;
+}
+.latest_reports p{
+  text-align: justify;
+  max-height: 150px;
+  overflow:hidden;
+}
+
+.example {
+  width: 400px;
+  height: 100px;
+  margin: 0px auto;
 }
