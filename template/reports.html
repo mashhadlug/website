@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <div class="reports">
+    {% for entry in source.src_files('source/reports/', true) | sort_by_published(true) %}
+    <div class="report col-md-12 col-sm-12 col-xs-12 {{ 'hidden' if loop.index > 10 }}">
+      <h2 class="text-center">
+        <a class href="{{ entry.link }}">{{ entry.title }}</a>
+      </h2>
+      {% if entry.printable_date %}
+      <p class="text-center text-muted">{{ entry.printable_date }}</p>
+      {% endif %}
+      <p>
+        {{ entry.content | markdown_short_story | markdown }}
+      </p>
+      <hr/>
+    </div>
+    {% endfor %}
+  </div>
+  <script type="text/javascript">
+    $(window).scroll(function()
+    {
+      var footer_height = $('.footer').height()
+      var scroll_top = $(window).scrollTop()
+      var last_seen = $(document).height() - $(window).height()
+      var offset = Math.ceil(.5*$(window).height())
+      if(scroll_top + offset > last_seen - footer_height )
+      {
+        $('.report.hidden:lt(10)').removeClass('hidden').hide().show(300)
+      }
+    });
+  </script>
+{% endblock %}

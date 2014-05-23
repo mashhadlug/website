@@ -1,0 +1,76 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="container content">
+  <div class="row title">
+    <h1 class="text-center">{{ page.title }}</h1>
+    {% if page.timer %}
+      <ul class="list-unstyled event-timer" data-time="{{ page.timer.due_date }}">
+        <li>
+          {snn}
+          <span>ثانیه</span>
+        </li> 
+        <li>
+          {mnn}
+          <span>دقیقه</span>
+        </li> 
+        <li>
+          {hn}
+          <span>ساعت</span>
+        </li> 
+        <li>
+          {dn}
+          <span>روز</span>
+        </li> 
+      </ul>
+      <p class="text-center">{{ page.timer.printable_date }}</p>
+    {% endif %}
+  </div>
+  <div class="row description">
+    <div class="col-md-8 right_content">
+      {{ page.content | markdown }}
+    </div>
+    <div class="col-md-4 left_content">
+      {% if page.map %}
+        <img class="img-responsive" src="{{ page.map.thumb | link }}" alt="" />
+        <p class="text-mute">
+          برای نمایی بزرگتر
+          <a target="_new" href="{{ page.map.url | link }}">اینجا</a>
+          را کلیک کنید.
+        </p>
+      {% endif %}
+      {% if page.location %}
+        <p>{{ page.location.address }}</p>
+        {% if page.location.routes %}
+          <ul class="">
+          {% for route in page.location.routes %}
+            <li>{{ route }}</li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+<div class="container content">
+  <div class="row latest_reports">
+    <ul class="list-unstyled">
+      {% for entry in source.src_files('source/reports/', true) | sort_by_published(true) | batch(3) | first %}
+      <li class="col-md-4 col-sm-4 col-xs-12">
+        <h4>
+          <a href="{{ entry.link }}">{{ entry.title }}</a>
+          <small class="timer text-muted" title="{{ entry.mtime | date_iso }}">{{ entry.ctime | date_printable }}</small>
+        </h4>
+        <p>
+          {{ entry.content | markdown_less_story | markdown }}
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="row text-center">
+    <a href="reports.html" class="btn btn-default">
+      مشاهده لیست کامل اخبار و گزارشات گروه
+    </a>
+  </div>
+</div>
+{% endblock %}

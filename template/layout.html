@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include '__head.html' %}
+  <body>
+    <div class="cover {{ 'mini' if page.link != '/index.html' }}">
+      <div class="container">
+        <div class="row">
+          <div class="logo">
+            <img src="{{ '/assets/images/MashhadLUGtop.png' | link }}" alt="گروه کاربران لینوکس مشهد" />
+          </div>
+          <div class="slogan">
+            <h1>گروه کاربران لینوکس مشهد</h1>
+            <h2 class="hidden-xs">آزادی نرم‌افزار از اعتقادات ماست</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% if page.link == '/index.html' %}
+    <div class="welcome">
+      <div class="container welcome">
+        <div class="row">
+          <div class="">
+            <p class="well">
+              <span>
+      مشهدلاگ اجتماع آزادی از دوست‌داران گنو/لینوکس است که بیشتر در شهر مشهد زندگی می‌کنند. ما به گرمی به کسانی که تمایل دارند به اجتماع ما بپیوند، خوش‌آمد می‌گوییم. ما معمولاً یک هفته در میان هر چهارشنبه دیدار داریم و دربارهٔ گنو/لینوکس و فن‌آوری‌های روز دنیای لینوکس صحبت می‌کنیم. فضای مشهدلاگ دوستانه است و شرکت در آن برای همه آزاد و رایگان می‌باشد.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    <div class="">
+      <div class="container">
+        <div class="row">
+          {% include '__navbar.html' %}
+        </div>
+        <div class="row">
+          {% block content %}{% endblock %}
+        </div>
+      </div>
+    </div>
+    {% include '__footer.html' %}
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.timer').timeago()
+        $('.event-timer').each(function(){
+          var due_date_attr = $(this).attr('data-time')
+          var due_date_timestamp = Date.parse(due_date_attr)
+          var due_date = new Date(due_date_timestamp)
+          console.log(due_date_attr, due_date_timestamp, due_date)
+          $(this).countdown({
+            until: due_date,
+            layout: $(this).html()
+          });
+        })
+      })
+    </script>
+  </body>
+</html>

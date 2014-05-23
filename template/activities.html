@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <div class="activities">
+    {% for entry in source.src_files('source/activities/', true) | sort_by_published(true) %}
+    <div class="activity col-md-6 col-sm-6 col-xs-12">
+      <a href="{{ entry.link | link }}">
+        <h4>{{ entry.title }}</h4>
+      </a>
+      {% if entry.thumb %}
+      <img class="img-responsive img-rounded text-center" src="{{ entry.thumb | link }}" alt="{{ entry.title }}">
+      {% else %}
+      <img class="img-responsive text-center" src="{{ BASE_URL }}/assets/images/activity_image_picture.png" alt="{{ entry.title }}">
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}

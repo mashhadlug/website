@@ -1,0 +1,15 @@
+<ul class="top-navbar col-md-12 list-unstyled">
+  {% for entry in source.src_files('source/', False) | sort_navbar_by %}
+    {% if entry.title %}
+    <li class="col-md-2 col-sm-3 col-xs-6 {{ 'active' if page.link == entry.link }}">
+      <a href="{{ entry.link | link }}" title="{{ entry.title }}">
+        <img src="{{ entry.navbar.icon | link }}" alt="{{ entry.title }}" />
+        <h4>
+          {{ entry.navbar.title|default(entry.title) }}
+        </h4>
+        <p>{{ entry.navbar.description|default('') }}</p>
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

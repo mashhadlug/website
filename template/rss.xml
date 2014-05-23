@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{ page.title }}</title>
+    <link>{{ page.domain }}</link>
+    <description>{{ page.description }}</description>
+    {% for entry in source.src_files('source/reports/', true) | sort_by_published(true)| batch(20) | first %}
+    <item>
+      <title>{{ entry.title }}</title>
+      <link>{{ page.domain }}/{{ entry.link }}</link>
+      <description><![CDATA[{{ entry.content | markdown_short_story | markdown }}]]></description>
+    </item>
+  {% endfor %}
+  </channel>
+</rss>

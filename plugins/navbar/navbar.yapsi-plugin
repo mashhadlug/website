@@ -1,0 +1,8 @@
+[Core]
+Name = Navbar
+Module = navbar
+
+[Documentation]
+Author = Bijan Ebrahimi
+Version = 0.1
+Description = add Navbar to jinja templates

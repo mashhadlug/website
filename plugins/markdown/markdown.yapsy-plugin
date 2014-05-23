@@ -1,0 +1,8 @@
+[Core]
+Name = Markdown
+Module = markdown
+
+[Documentation]
+Author = Bijan Ebrahimi
+Version = 0.1
+Description = add Markdown functionality to jinja templates
