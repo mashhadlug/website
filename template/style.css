@@ -154,6 +154,10 @@ ul.top-navbar li p {
 .footer ul li {
   display: inline-block;
 }
+.footer .sponsers li {
+  margin: 10px;
+  display: block;
+}
 .footer .dark {
   opacity: 0.4;
   background: none repeat scroll 0% 0% #131313;
