@@ -17,7 +17,7 @@ category: sessions
 
 ۱. بررسی اخبار دنیای متن باز توسط بیژن ابراهیمی  
 ۲. لینوکس، دوستدار محیط زیست توسط بیژن ابراهیمی ([دانلود فایل خلاصه
-ارائه](../system/files/powertop.txt))  
+ارائه](/reports/session-104/powertop.txt))  
 ۳. معرفی ابزار اداری کالیگرا توسط مجید رمضانپور (دانلود فایل ارائه به‌زودی)  
 ۴. بررسی فعالیت هفته‌ی پنجم «پروژه‌ی ویکی‌پدیا فارسی» با موضوعات [سیستم‌عامل
 اُپن سولاریس](http://fa.wikipedia.org/wiki/%D8%A7%D9%BE%D9%86%E2%80%8C%D8%B3%D
@@ -33,9 +33,3 @@ DA%AF%D9%86%D9%88_%DA%AF%D8%B1%D8%A7%D8%A8) و [پروتکل اشتراک فای
 
 این جلسه در راس ساعت ۱۹ به کار خود خاتمه داد
 
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/textplain.png)
-[powertop.txt](../system/files/powertop.txt)
-
-6.12 KB

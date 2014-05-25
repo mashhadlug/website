@@ -18,15 +18,8 @@ category: news
 ۲. آشنایی با دبین گنو هرد توسط مهدی عطائیان [اطلاعات بیشتر در
 ویکی‌پدیا](http://fa.wikipedia.org/wiki/%DA%AF%D9%86%D9%88_%D9%87%D8%B1%D8%AF)  
 ۳. معرفی ابزار Bitlbee، درگاهی برای ارسال پیام فوری در IRC توسط مرتضی فخرایی
-[دانلود خلاصه](../system/files/bitlbee.txt)  
+[دانلود خلاصه](/reports/session-102/bitlbee.txt)  
 ۴. ترفند‌هایی در مونت کردن فایل پشتیبان تهیه شده از کل هارد‌دیسک توسط بیژن
-ابراهیمی [دانلود خلاصه](../system/files/mount_0.txt)  
+ابراهیمی [دانلود خلاصه](/reports/session-102/mount_0.txt)  
 ۵. بحث آزاد  
 ۶. بحث و تبادل‌نظر اعضای فعال در همایش برگزار شده پیرامون نکات ضعف و قدرت آن
-
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/textplain.png)
-[mount.txt](../system/files/mount_0.txt)
-
-2.46 KB

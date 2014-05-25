@@ -16,7 +16,7 @@ category: news
 موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:  
 ۱. بررسی اخبار دنیای متن باز توسط آرش موسوی  
 ۲. معرفی سیستم‌عامل آرچ لینوکس توسط علی موسوی دانلود اسلاید ارایه
-[PDF](../system/files/archlinux.pdf) | [ODP](../system/files/Archlinux.odp)  
+[PDF](/reports/session-103/archlinux.pdf) | [ODP](/reports/session-103/Archlinux.odp)  
 ۳. بررسی فعالیت هفته‌ی چهارم «پروژه‌ی ویکی‌پدیا فارسی» با موضوعات [پی‌اچ‌پی‌ما
 ی‌ادمین](http://fa.wikipedia.org/w/index.php?title=%D9%BE%DB%8C%E2%80%8C%D8%A7
 %DA%86%E2%80%8C%D9%BE%DB%8C%E2%80%8C%D9%85%D8%A7%DB%8C%E2%80%8C%D8%A7%D8%AF%D9
@@ -27,10 +27,3 @@ DB%8C_%DA%AF%D8%A7%D8%B1%D8%AF&action=edit&redlink=1) و توزیع
 حامد رمضانیان  
 ۴. بحث آزاد  
 
-
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/applicationpdf.png)
-[archlinux.pdf](../system/files/archlinux.pdf)
-
-649.13 KB

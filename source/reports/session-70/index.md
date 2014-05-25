@@ -27,13 +27,7 @@ GIMP. اطلاعات بیشتر در [اینجا](http://registry.gimp.org/node/
 [اینجا](http://recordmydesktop.sourceforge.net/about.php)
 
 بررسی جامع پروتوکل رمز‌نگاری SSL و حملات مرد میانه یا Maninthemiddle. اسلاید
-را از ضمیمه دانلود کنید. برای دانلود ضمیمه لازم است در سایت لاگین کنید.
+را از [اینجا](/reports/session-70/mitm-iran.pdf) دانلود کنید.
 
 جلسه در ساعت ۲۰:۳۰ خاتمه یافت.
 
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/applicationpdf.png)
-[mitmiran.pdf](../system/files/mitmiran.pdf)
-
-1.91 MB

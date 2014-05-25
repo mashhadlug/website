@@ -20,7 +20,7 @@ category: sessions
 edia.org/wiki/%D8%A2%D8%B3%D8%A7%D9%85_%28%D9%85%D8%AF%DB%8C%D8%B1_%D9%BE%D9%8
 6%D8%AC%D8%B1%D9%87%29)  
 ۳. «اصول طراحی وب، فونت‌ها» توسط بیژن ابراهیمی ([دانلود خلاصه
-ارائه](../system/files/webdesgintricksfontsizing.txt))  
+ارائه](/reports/session-108/web-desgin-tricks-font-sizing.txt))  
 ۴. نکته‌ی خط فرمان توسط بیژن ابراهیمی  
 ۵. بررسی فعالیت هفته‌ی نهم پروژه‌ی ویکی‌پدیای فارسی با موضوعات [گواهینامه
 مؤسسه تخصصی لینوکس](http://fa.wikipedia.org/wiki/%DA%AF%D9%88%D8%A7%D9%87%DB%8
@@ -33,10 +33,3 @@ C%D9%86%D8%A7%D9%85%D9%87_%D9%85%D9%88%D8%B3%D8%B3%D9%87_%D8%AA%D8%AE%D8%B5%D8
 ۶. بحث آزاد
 
 
-
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/textplain.png)
-[webdesgintricksfontsizing.txt](../system/files/webdesgintricksfontsizing.txt)
-
-4.12 KB

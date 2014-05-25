@@ -13,7 +13,7 @@ category: sessions
 <!--more-->
 
 
-![جشن صدمین جلسه گروه کاربران لینوکس مشهد](../system/files/party.jpg)
+!![جشن صدمین جلسه گروه کاربران لینوکس مشهد](/reports/session-100/party.jpg)
 
 **موضوعاتی که در این جلسه به آن‌ها پرداخته شد عبارتند از:**  
 ۱. اخبار دنیای متن باز توسط آرش موسوی  
@@ -28,10 +28,3 @@ _%28%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%E2%80%8C%D8%B9%D8%A7%D9%85%D9%84%29)،
 تایزن](http://fa.wikipedia.org/wiki/%D8%AA%D8%A7%DB%8C%D8%B2%D9%86) )
 
 همچنین در ادامه اعضای گروه در کنار هم به گرفتن عکس یادگاری پرداختند.
-
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/imagexgeneric.png)
-[party.jpg](../system/files/party.jpg)
-
-45.86 KB

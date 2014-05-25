@@ -21,22 +21,11 @@ category: sessions
 _in_artist.html) / [دریافت زیر‌نویس فارسی](http://tedtalksubtitledownload.apps
 pot.com/get_subtitle?tedtalkid=1115&lang=fa&timeIntro=15330))...  
 ۳. نکته خط فرمان، آشنایی با دستور [stat](http://linux.die.net/man/1/stat) توسط
-بیژن ابراهیمی ([دریافت فایل خلاصه ارائه](../system/files/cmd_stat.txt))  
+بیژن ابراهیمی ([دریافت فایل خلاصه ارائه](/reports/session-98/cmd_stat.txt))  
 ۴. آشنایی با روشهای تبدیل دی‌وی‌دی به قالب‌های کم‌حجم به صورت حرفه‌ای توسط
 مرتضی فخرائی ([دریافت فایل خلاصه
-ارائه](../system/files/acathur~dvd_ripping_h264enc.txt))  
+ارائه](/reports/session-98/acathur~dvd_ripping_h264enc.txt))  
 
 
 این جلسه در ساعت ۱۹ خاتمه یافت
 
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/textplain.png) [acathur~dvd_r
-ipping_h264enc.txt](../system/files/acathur~dvd_ripping_h264enc.txt)
-
-1.55 KB
-
-![](http://www.mashhadlug.org/modules/file/icons/textplain.png)
-[cmd_stat.txt](../system/files/cmd_stat.txt)
-
-3.83 KB

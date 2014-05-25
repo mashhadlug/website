@@ -17,7 +17,7 @@ category: sessions
 
 ۱. بررسی اخبار دنیای متن باز توسط آرش موسوی  
 ۲. آشنایی با نحوه کانفیگ و کامپایل کرنل لینوکس توسط کوروش مهری ([دانلود خلاصه
-ارائه](../system/files/compile_linux_kernel.txt))  
+ارائه](/reports/session-111/compile_linux_kernel.txt))  
 ۳. معرفی ابزار dirsplit برای تقسیم محتوای یک دایرکتوری به دایرکتوری‌هایی با
 اندازه مشخص توسط بیژن ابراهیمی ([صفحه راهنما](http://man.cx/dirsplit))  
 ۴. نکته خط‌فرمان؛ معرفی ابزار compgen در پوسته bash توسط حامد رمضانیان  
@@ -32,10 +32,3 @@ tp://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87_%D8%B1%D8%A7%D9%87%D9%86%D
 
 
 این جلسه در ساعت ۱۹ به کار خود پایان داد.
-
-AttachmentSize
-
-![](http://www.mashhadlug.org/modules/file/icons/textplain.png)
-[compile_linux_kernel.txt](../system/files/compile_linux_kernel.txt)
-
-455 bytes
