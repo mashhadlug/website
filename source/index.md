@@ -5,7 +5,7 @@ language: fa
 layout: index
 timer:
   due_date: 28 May 2014 18:00 GMT+0430
-  printable_date: چهارشنبه ۷ خرداد ماه ۱۳۹۳، ساعت ۱۸ الی ۱۷:۳۰
+  printable_date: چهارشنبه ۷ خرداد ماه ۱۳۹۳، ساعت ۱۸ الی ۱۹:۳۰
 navbar:
   title: خانه
   description: رویداد بعدی گروه
