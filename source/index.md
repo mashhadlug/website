@@ -13,7 +13,7 @@ navbar:
   icon: /assets/images/icons/internet-and-web-4/internt_web_technology-01.png
 map:
   thumb: /assets/images/map_thumb.png
-  url: /assets/images/map_thumb.png
+  url: http://www.openstreetmap.org/?mlat=36.29214&mlon=59.56787#map=17/36.29214/59.56787&layers=H
 location:
   address: بلوار احمدآباد، خیابان رضا، بین رضا ۱۹ و چهارراه بعثت (حاشیه خیابان) پلاک ۱۸۰ - جنب خشک‌شویی لُرد اکسپرس - طبقه +۱ (آموزشگاه دیتاسنترشرق)
   routes:
