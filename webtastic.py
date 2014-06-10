@@ -55,6 +55,7 @@ class Webtastic(object):
     
     # Set ArgParser
     self.parser = argparse.ArgumentParser(description='Simple Static Web Generator')
+    self.parser.add_argument('--cache', dest='cache', action='store_true')
     
     # A referrence for plugins to access the env object
     # manager.env = self.env
@@ -82,6 +83,7 @@ class Webtastic(object):
     
     # Get Arguments
     self.args = vars(self.parser.parse_args())
+    print self.args
     
     # OUTPUT and 
     base_url = self.args['base_url']
@@ -115,7 +117,7 @@ class Webtastic(object):
       # TODO: add output variable
       output_file = os.path.join('html/', self.src_file.link[1:])
       
-      if os.path.exists(output_file):
+      if self.args['cache'] and os.path.exists(output_file):
         if max(int(os.path.getctime(src_file.path)), int(os.path.getmtime(src_file.path))) <= int(os.path.getmtime(output_file)):
           # print 'cached', src_file.path
           continue
