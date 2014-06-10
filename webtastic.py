@@ -178,12 +178,17 @@ class WebtasticSourceTree(object):
         filtered.append(matched.group())
     return filtered
   
-  def src_file_paths (self, path='', recursive=True):
+  def src_file_paths (self, path='', recursive=True, meta=False):
     """ Function doc """
     filtered = []
     for f in self.file_paths(path, recursive):
-      if re.search(".md$", f):
+      # print f, meta, re.search("^_.*.md$", f), re.search("^([^_].*.md)$", f)
+      filename = os.path.split(f)[1]
+      if meta and re.search(".md$", filename):
         filtered.append(f)
+      elif not meta and re.search("^([^_]+.md)$", filename):
+        filtered.append(f)
+        # pass
     return filtered
   
   def rel_file_paths (self, path='', recursive=True):
@@ -203,10 +208,10 @@ class WebtasticSourceTree(object):
         filtered.append(directory)
     return filtered
   
-  def src_files (self, path='', recursive=True):
+  def src_files (self, path='', recursive=True, meta=False):
     """ Function doc """
     res = []
-    for file_path in self.src_file_paths(path, recursive):
+    for file_path in self.src_file_paths(path, recursive, meta):
       f = WebtasticSourceFile(file_path)
       res.append(f)
     return res
