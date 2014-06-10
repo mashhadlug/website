@@ -97,7 +97,7 @@ class Webtastic(object):
     os.system("mkdir -p %s" % (OUTPUT_DIR))
     # Copy TEMPLATE's content directories/files into OUTPUT directory
     # TODO: exclude partials and layout
-    os.system("cp -r %s/* %s" % (TEMPLATE_DIR, OUTPUT_DIR))
+    os.system("rsync --update -a %s/* %s" % (TEMPLATE_DIR, OUTPUT_DIR))
     # Create Directory for every subdirectory exists in source directory
     for directory in self.sources.directories('source/'):
       directory = re.sub(r"^([^/]+)", OUTPUT_DIR, directory)
@@ -106,11 +106,20 @@ class Webtastic(object):
     for rel_file in self.sources.rel_file_paths('source/'):
       src = rel_file
       dst = re.sub(r"^([^/]+)", OUTPUT_DIR, rel_file)
+      # TODO: use rsync instead of cp
       os.system("cp %s %s" % (src, dst))
     # read every source file and compile it into OUTPUT directory
     for src_file in self.sources.src_files():
-      print 'html' + src_file.link
       self.src_file = src_file
+      
+      # TODO: add output variable
+      output_file = os.path.join('html/', self.src_file.link[1:])
+      
+      if os.path.exists(output_file):
+        if max(int(os.path.getctime(src_file.path)), int(os.path.getmtime(src_file.path))) <= int(os.path.getmtime(output_file)):
+          # print 'cached', src_file.path
+          continue
+      print 'html' + src_file.link
       
       # TODO: plugin's BEFORE_LOAD_TEMPLATE
       # TODO: set default layout
@@ -122,9 +131,6 @@ class Webtastic(object):
         template = self.env.get_template('%s.html' % self.src_file.layout)
       # TODO: plugin's AFTER_LOAD_TEMPLATE
       
-      # TODO: add output variable
-      output_file = os.path.join('html/', self.src_file.link[1:])
-      
       # TODO: plugin's BEFORE_TEMPLATE_RENDER
       output_content = template.render(page=self.src_file, source=self.sources)
       output_content = re.sub("$BASE_URL", "html/", output_content)
@@ -133,17 +139,6 @@ class Webtastic(object):
       # TODO: plugin's BEFORE_WRITE_OUTPUT
       self.write_file(output_file, output_content)
       # TODO: plugin's AFTER_WRITE_OUTPUT
-    
-    # f = open('template/style.css')
-    # stylesheet = f.read()
-    # f.close()
-    # base_url = self.args['base_url']
-    # if len(base_url) > 0 and not base_url.startswith("/"):
-      # base_url = '/' + base_url
-    # compile_stylesheet = re.sub("\$BASE_URL", base_url, stylesheet)
-    # f = open('%s/style.css' % 'html', 'w')
-    # f.write(compile_stylesheet)
-    # f.close()
     
     # Deactivating the plugins
     for plugin in manager.getAllPlugins():
