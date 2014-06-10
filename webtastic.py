@@ -73,14 +73,6 @@ class Webtastic(object):
     f.close()
     return True
   
-  def copy_tree(self, src, dst):
-    try:
-        shutil.copytree(src, dst)
-    except OSError as exc: # python >2.5
-        if exc.errno == errno.ENOTDIR:
-            shutil.copy(src, dst)
-        else: raise
-  
   def run (self):
     """ Function doc """
     # Activating all the plugins
@@ -142,16 +134,16 @@ class Webtastic(object):
       self.write_file(output_file, output_content)
       # TODO: plugin's AFTER_WRITE_OUTPUT
     
-    f = open('template/style.css')
-    stylesheet = f.read()
-    f.close()
-    base_url = self.args['base_url']
-    if len(base_url) > 0 and not base_url.startswith("/"):
-      base_url = '/' + base_url
-    compile_stylesheet = re.sub("\$BASE_URL", base_url, stylesheet)
-    f = open('%s/style.css' % 'html', 'w')
-    f.write(compile_stylesheet)
-    f.close()
+    # f = open('template/style.css')
+    # stylesheet = f.read()
+    # f.close()
+    # base_url = self.args['base_url']
+    # if len(base_url) > 0 and not base_url.startswith("/"):
+      # base_url = '/' + base_url
+    # compile_stylesheet = re.sub("\$BASE_URL", base_url, stylesheet)
+    # f = open('%s/style.css' % 'html', 'w')
+    # f.write(compile_stylesheet)
+    # f.close()
     
     # Deactivating the plugins
     for plugin in manager.getAllPlugins():

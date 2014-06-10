@@ -2,21 +2,21 @@
   font-family: 'Droid Arabic Naskh';
   font-style: normal;
   font-weight: 400;
-  src: url('$BASE_URL/assets/fonts/DroidNaskh-Regular.eot');
-  src: url('$BASE_URL/assets/fonts/DroidNaskh-Regular.eot?#iefix') format('embedded-opentype'),
-       url('$BASE_URL/assets/fonts/DroidNaskh-Regular.woff2') format('woff2'),
-       url('$BASE_URL/assets/fonts/DroidNaskh-Regular.woff') format('woff'),
-       url('$BASE_URL/assets/fonts/DroidNaskh-Regular.ttf') format('truetype');
+  src: url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Regular.eot');
+  src: url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Regular.eot?#iefix') format('embedded-opentype'),
+       url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Regular.woff2') format('woff2'),
+       url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Regular.woff') format('woff'),
+       url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Droid Arabic Naskh Bold';
   font-style: normal;
   font-weight: 700;
-  src: url('$BASE_URL/assets/fonts/DroidNaskh-Bold.eot');
-  src: url('$BASE_URL/assets/fonts/DroidNaskh-Bold.eot?#iefix') format('embedded-opentype'),
-       url('$BASE_URL/assets/fonts/DroidNaskh-Bold.woff2') format('woff2'),
-       url('$BASE_URL/assets/fonts/DroidNaskh-Bold.woff') format('woff'),
-       url('$BASE_URL/assets/fonts/DroidNaskh-Bold.ttf') format('truetype');
+  src: url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Bold.eot');
+  src: url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Bold.eot?#iefix') format('embedded-opentype'),
+       url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Bold.woff2') format('woff2'),
+       url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Bold.woff') format('woff'),
+       url('{{ BASE_URL }}/assets/fonts/DroidNaskh-Bold.ttf') format('truetype');
 }
 
 body {
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cover {
-  background: url($BASE_URL/assets/images/wide-image.jpg) no-repeat center center;
+  background: url({{ BASE_URL }}/assets/images/wide-image.jpg) no-repeat center center;
   background-size: cover;
   /*position: fixed;*/
   width: 100%;
@@ -125,7 +125,7 @@ ul.top-navbar li p {
 }
 
 .footer {
-  background: url($BASE_URL/assets/images/footer_bg.png);
+  background: url({{ BASE_URL }}/assets/images/footer_bg.png);
   font-size: .8em;
   padding: 30px 0px 0px 0px;
   margin-top: 50px;
