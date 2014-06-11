@@ -1,32 +1,46 @@
 {% extends 'layout.html' %}
+{% macro reports_batch(reports, page, length) %}
+  {% for report in reports %}
+  <div class="report col-md-12 col-sm-12 col-xs-12 {{ 'hidden' if loop.index > 10 }}">
+    <h2 class="text-center">
+      <a class href="{{ report.link }}">{{ report.title }}</a>
+    </h2>
+    {% if report.printable_date %}
+    <p class="text-center text-muted">{{ report.printable_date }}</p>
+    {% endif %}
+    <p>
+      {{ report.content | markdown_short_story | markdown }}
+    </p>
+    <hr/>
+  </div>
+  {% endfor %}
+  {% if page < length %}
+  <div class="text-center">
+    <a href="#" data-href="{{ '/reports/pagination_%s.html' % (page+1) }}" class="btn btn-default viewmore" data-loading-text="در حال بارگزاری ...">مشاهده بیشتر</a>
+  </div>
+  {% endif %}
+{% endmacro %}
 {% block content %}
   <div class="reports">
-    {% for entry in source.src_files('source/reports/', true) | sort_by_published(true) %}
-    <div class="report col-md-12 col-sm-12 col-xs-12 {{ 'hidden' if loop.index > 10 }}">
-      <h2 class="text-center">
-        <a class href="{{ entry.link }}">{{ entry.title }}</a>
-      </h2>
-      {% if entry.printable_date %}
-      <p class="text-center text-muted">{{ entry.printable_date }}</p>
-      {% endif %}
-      <p>
-        {{ entry.content | markdown_short_story | markdown }}
-      </p>
-      <hr/>
-    </div>
+    {{ reports_batch(source.src_files('source/reports/', true) | sort_by_published(true) | batch(10) | first, 1, 2) }}
+    {% for reports in (source.src_files('source/reports/', true) | sort_by_published(true) | batch(10)) %}
+      {{ pagination(reports_batch(reports, loop.index, loop.length), "/home/echo/projects/web/mashhadlug-website/html/reports/", loop.index, "pagination_") }}
     {% endfor %}
   </div>
   <script type="text/javascript">
-    $(window).scroll(function()
-    {
-      var footer_height = $('.footer').height()
-      var scroll_top = $(window).scrollTop()
-      var last_seen = $(document).height() - $(window).height()
-      var offset = Math.ceil(.5*$(window).height())
-      if(scroll_top + offset > last_seen - footer_height )
-      {
-        $('.report.hidden:lt(10)').removeClass('hidden').hide().show(300)
-      }
-    });
+    $(document).ready(function(){
+      $(document).on('click', '.reports .viewmore',function(e){
+        e.preventDefault()
+        var data_href = $(this).attr('data-href')
+        var that = this
+        $(that).button('loading')
+        $.get(data_href, function(data){
+            console.log(data)
+            $('.reports').append(data)
+            $(that).remove()
+          }
+        )
+      })
+    })
   </script>
 {% endblock %}
