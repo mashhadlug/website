@@ -40,12 +40,12 @@
                 <div class="item {{'active' if loop.index==1 }}">
                   <blockquote>
                     <div class="row">
-                      <!--<div class="col-sm-2 text-center">
-                        <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_1.png" style="width: 100px;height:100px;">
-                      </div>-->
-                      <div class="col-sm-10 col-md-offset-1">
+                      <div class="col-sm-2 text-center">
+                        <img class="img-circle" src="{{ slogan.avatar }}" style="width: 100px;height:100px;">
+                      </div>
+                      <div class="col-sm-10">
                         {{ slogan.content | markdown }}
-                        <!--<small>Someone famous</small>-->
+                        <small>{{ slogan.author }}</small>
                       </div>
                     </div>
                   </blockquote>

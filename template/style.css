@@ -360,6 +360,12 @@ pre code {
     margin: 0;
     color: white;
 }
+.item blockquote small {
+    color: red;
+    text-align: left;
+    color: #C0392B;
+    font-weight: bold;
+}
 
 .item blockquote img {
     margin-bottom: 10px;
