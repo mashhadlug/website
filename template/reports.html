@@ -24,7 +24,7 @@
   <div class="reports">
     {{ reports_batch(source.src_files('source/reports/', true) | sort_by_published(true) | batch(10) | first, 1, 2) }}
     {% for reports in (source.src_files('source/reports/', true) | sort_by_published(true) | batch(10)) %}
-      {{ pagination(reports_batch(reports, loop.index, loop.length), "/home/echo/projects/web/mashhadlug-website/html/reports/", loop.index, "pagination_") }}
+      {{ pagination(reports_batch(reports, loop.index, loop.length), "html/reports/", loop.index, "pagination_") }}
     {% endfor %}
   </div>
   <script type="text/javascript">
