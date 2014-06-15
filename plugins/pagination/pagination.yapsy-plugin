@@ -1,0 +1,8 @@
+[Core]
+Name = Pagination
+Module = pagination
+
+[Documentation]
+Author = Bijan Ebrahimi
+Version = 0.1
+Description = add Pagination support to jinja templates
