@@ -13,6 +13,7 @@
   <!-- Stylesheets -->
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/css/bootstrap-rtl.min.css" rel="stylesheet">
+  <link href="/assets/css/font-awesome.css" rel="stylesheet">
   <link href="/style.css" rel="stylesheet">
   
   <!-- Javascript -->
@@ -48,17 +49,112 @@
     </div>
     
     <div class="welcome">
-      <div class="container welcome">
-        <div class="row">
-          <div class="">
-            <p class="well">
-              <span>
-      مشهدلاگ اجتماع آزادی از دوست‌داران گنو/لینوکس است که بیشتر در شهر مشهد زندگی می‌کنند. ما به گرمی به کسانی که تمایل دارند به اجتماع ما بپیوند، خوش‌آمد می‌گوییم. ما معمولاً یک هفته در میان هر چهارشنبه دیدار داریم و دربارهٔ گنو/لینوکس و فن‌آوری‌های روز دنیای لینوکس صحبت می‌کنیم. فضای مشهدلاگ دوستانه است و شرکت در آن برای همه آزاد و رایگان می‌باشد.
-              </span>
-            </p>
+      <div class="container">
+        <!--<div class="row">
+          <div class=' text-center'>
+          <h2>Responsive Quote Carousel BS3</h2>
+          </div>
+        </div>-->
+        <div class='row'>
+          <div class=''>
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+              <!-- Bottom Carousel Indicators -->
+              <!--<ol class="carousel-indicators">
+                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#quote-carousel" data-slide-to="1"></li>
+                <li data-target="#quote-carousel" data-slide-to="2"></li>
+              </ol>-->
+              
+              <!-- Carousel Slides / Quotes -->
+              <div class="carousel-inner">
+              
+                
+                <div class="item active">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-2 text-center">
+                        <img class="img-circle" src="/slogans/Richard_Stallman_2009.jpg" style="width: 100px;height:100px;">
+                      </div>
+                      <div class="col-sm-10">
+                        <p>مشهدلاگ اجتماع آزادی از دوست‌داران گنو/لینوکس است که بیشتر در شهر مشهد زندگی می‌کنند. ما به گرمی به کسانی که تمایل دارند به اجتماع ما بپیوند، خوش‌آمد می‌گوییم. ما معمولاً یک هفته در میان هر چهارشنبه دیدار داریم و دربارهٔ گنو/لینوکس و فن‌آوری‌های روز دنیای لینوکس صحبت می‌کنیم. فضای مشهدلاگ دوستانه است و شرکت در آن برای همه آزاد و رایگان می‌باشد.</p>
+                        <small>گروه کاربران لینوکس مشهد</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                
+                <div class="item ">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-2 text-center">
+                        <img class="img-circle" src="/slogans/Richard_Stallman_2009.jpg" style="width: 100px;height:100px;">
+                      </div>
+                      <div class="col-sm-10">
+                        <p>مشهدلاگ اجتماع آزادی از دوست‌داران گنو/لینوکس است که بیشتر در شهر مشهد زندگی می‌کنند. ما به گرمی به کسانی که تمایل دارند به اجتماع ما بپیوند، خوش‌آمد می‌گوییم. ما معمولاً یک هفته در میان هر چهارشنبه دیدار داریم و دربارهٔ گنو/لینوکس و فن‌آوری‌های روز دنیای لینوکس صحبت می‌کنیم. فضای مشهدلاگ دوستانه است و شرکت در آن برای همه آزاد و رایگان می‌باشد.</p>
+                        <small>ریچارد استالمن</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                
+                <!-- Quote 2 -->
+              </div>
+              <!-- Carousel Buttons Next/Prev -->
+              <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+              <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+            </div>                          
           </div>
         </div>
       </div>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          //Set the carousel options
+          $('#quote-carousel').carousel({
+            pause: true,
+            interval: 4000,
+          });
+        });
+      </script>
+      
+      <!--
+      <div class="container welcome">
+        <div class="row">
+          <div class="">
+            <div class="well">
+              
+              
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                  
+                </ol>
+                <div class="carousel-inner">
+                  
+                  <div class="item active">
+                    <div class="new_html_code" style="width:150px; height:100px; min-width:150px; min-height:100px; max-width:200px; max-height:100px; overflow:hidden; display:block; border:1px solid red;"></div>
+                    <div class="carousel-caption">
+                      <p>مشهدلاگ اجتماع آزادی از دوست‌داران گنو/لینوکس است که بیشتر در شهر مشهد زندگی می‌کنند. ما به گرمی به کسانی که تمایل دارند به اجتماع ما بپیوند، خوش‌آمد می‌گوییم. ما معمولاً یک هفته در میان هر چهارشنبه دیدار داریم و دربارهٔ گنو/لینوکس و فن‌آوری‌های روز دنیای لینوکس صحبت می‌کنیم. فضای مشهدلاگ دوستانه است و شرکت در آن برای همه آزاد و رایگان می‌باشد.</p>
+                    </div>
+                  </div>
+                  
+                  <div class="item ">
+                    <div class="new_html_code" style="width:150px; height:100px; min-width:150px; min-height:100px; max-width:200px; max-height:100px; overflow:hidden; display:block; border:1px solid red;"></div>
+                    <div class="carousel-caption">
+                      <p>مشهدلاگ اجتماع آزادی از دوست‌داران گنو/لینوکس است که بیشتر در شهر مشهد زندگی می‌کنند. ما به گرمی به کسانی که تمایل دارند به اجتماع ما بپیوند، خوش‌آمد می‌گوییم. ما معمولاً یک هفته در میان هر چهارشنبه دیدار داریم و دربارهٔ گنو/لینوکس و فن‌آوری‌های روز دنیای لینوکس صحبت می‌کنیم. فضای مشهدلاگ دوستانه است و شرکت در آن برای همه آزاد و رایگان می‌باشد.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>-->
     </div>
     
     <div class="">
@@ -212,11 +308,21 @@
       
       <li class="col-md-4 col-sm-4 col-xs-12">
         <h4>
-          <a href="/reports/session-150/index.html">گزارش جلسه ۱۵۰‌ام گروه کاربران لینوکس مشهد</a>
-          <small class="timer text-muted" title="2014-06-03T13:51:29Z">June 03, 2014</small>
+          <a href="/reports/session-151/index.html">گزارش جلسه ۱۵۱ام گروه کاربران لینوکس مشهد</a>
+          <small class="timer text-muted" title="2014-06-15T12:24:01Z">June 15, 2014</small>
         </h4>
         <p>
-          <p>این جلسه در تاریخ ۰۷ خرداد ۱۳۹۲ در محل برگزاری جلسات  در آموزشگاه دیتاسنتر شرق برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
+          <p>این جلسه در تاریخ ۲۱ خرداد ۱۳۹۳ در محل برگزاری جلسات  در آموزشگاه دیتاسنتر شرق برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
+        </p>
+      </li>
+      
+      <li class="col-md-4 col-sm-4 col-xs-12">
+        <h4>
+          <a href="/reports/session-150/index.html">گزارش جلسه ۱۵۰‌ام گروه کاربران لینوکس مشهد</a>
+          <small class="timer text-muted" title="2014-06-12T18:44:11Z">June 12, 2014</small>
+        </h4>
+        <p>
+          <p>این جلسه در تاریخ ۰۷ خرداد ۱۳۹۳ در محل برگزاری جلسات  در آموزشگاه دیتاسنتر شرق برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
         </p>
       </li>
       
@@ -227,16 +333,6 @@
         </h4>
         <p>
           <p>با توجه به کناره گیری آقای «مهدی عطائیان» برای شرکت در رای گیری مجدد انتخاب عضو پنجم و عضو اول علی‌البدل گروه راهبران، اسامی اعضای راهبران و علی‌البدل گروه به شرح زیر می‌باشد.</p>
-        </p>
-      </li>
-      
-      <li class="col-md-4 col-sm-4 col-xs-12">
-        <h4>
-          <a href="/reports/session-149/index.html">گزارش جلسه ۱۴۹ گروه کاربران لینوکس مشهد</a>
-          <small class="timer text-muted" title="2014-05-26T11:39:59Z">May 26, 2014</small>
-        </h4>
-        <p>
-          <p>این جلسه در تاریخ ۲۴ اردیبهشت ۱۳۹۲ در محل برگزاری جلسات  در آموزشگاه دیتاسنتر شرق برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
         </p>
       </li>
       
