@@ -170,8 +170,12 @@ ul.top-navbar li p {
 .footer .copyright {
   color:white;
 }
-.footer .copyright p{
+.footer .copyright > ul > li{
   margin: 0px;
+  display:block;
+}
+.footer .copyright ul li i{
+  font-size: 2.5em;
 }
 
 .timer {
