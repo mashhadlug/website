@@ -43,6 +43,7 @@ Demo
 currently using Webtastic
 
 * [Mashhadlug LUG](http://next.mashhadlug.org)
+* [Mashhadlug Hackathon](http://hackathon.mashhadlug.org)
 
 LICENSE
 ---------
