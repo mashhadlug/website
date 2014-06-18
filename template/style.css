@@ -313,6 +313,13 @@ pre code {
   overflow:hidden;
 }
 
+.wiki .item-title:hover{
+  text-decoration: none;
+}
+.wiki ul{
+  padding-right: 30px;
+}
+
 .example {
   width: 400px;
   height: 100px;

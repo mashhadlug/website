@@ -3,17 +3,36 @@
   <div class="wiki">
     <p>
 گروه کاربران لینوکس مشهد و یا به اختصار مشهد‌لاگ گروهی مردم‌نهاد و غیرانتفاعی است که با هدف ارتقا سطح فرهنگ استفاده عموم از سیستم‌عامل گنو/لینوکس در سال ۸۶ تاسیس شد. برای اطلاعات بیشتر درباره این گروه می‌توانید به وبسایت رسمی اطلاع رسانی گروه مراجعه فرمائید
-</p>
-    <ul class="">
-    {% for entry in source.src_files('source/wiki/', true) | sort_ctime %}
-      <li>
-        <h4><a href="{{ entry.link | link }}">{{ entry.title }}</a></h4>
-        <p class="text-muted">
-          آخرین تغییرات در 
-          <span class="timer text-muted" title="{{ entry.mtime | date_iso }}">{{ entry.ctime | date_printable }}</span>
-        </p>
-      </li>
+    </p>
+    {% for group in source.src_files('source/wiki/', true) | groupby('category') %}
+      <a class="item-title" href="#">
+        <h3>
+          <i class="fa fa-toggle-up"></i>
+          {{ group.grouper }}
+        </h3>
+      </a>
+      <ul class="list-unstyled col-md-12">
+        {% for entry in group.list | sort_ctime %}
+          <li class="col-md-6 col-sm-12 item">
+            <h4><a href="{{ entry.link | link }}">{{ entry.title }}</a></h4>
+            <p class="text-muted">
+              آخرین تغییرات در 
+              <span class="timer text-muted" title="{{ entry.mtime | date_iso }}">{{ entry.ctime | date_printable }}</span>
+            </p>
+          </li>
+        {% endfor %}
+        <li class="col-md-12"><hr/></li>
+      </ul>
     {% endfor %}
-    </ul>
   </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.item-title').click(function(e){
+        e.preventDefault()
+        $(this).next('ul').find('.item').slideToggle()
+        $(this).find('i').toggleClass('fa-toggle-up')
+        $(this).find('i').toggleClass('fa-toggle-down')
+      })
+    })
+  </script>
 {% endblock %}

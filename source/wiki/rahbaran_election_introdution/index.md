@@ -4,7 +4,7 @@ layout: page
 author: falatooni
 published: 2009-02-04 20:00:00
 meta: published by falatooni on Wed, 02/04/2009 - 20:00
-category: wiki
+category: عمومی
 ----------
 ###  آشنایی با گروه راهبران
 
@@ -66,4 +66,3 @@ category: wiki
 اعضای علی‌البدل:
 
   * مصطفی عبدالعلی‌زاده
-

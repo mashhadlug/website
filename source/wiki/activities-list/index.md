@@ -4,7 +4,7 @@ layout: page
 author: Unknown
 published: 
 meta: 
-category: announcements
+category: فعالیت‌ها
 ----------
 **جشن‌ها، همایش‌ها و مراسم برگزار شده توسط گروه**
 
@@ -85,8 +85,3 @@ category: announcements
 حضور در پنجمین نمایشگاه بین‌المللی السیت مشهد
 
 [گزارش](199)
-
-
-
-
-

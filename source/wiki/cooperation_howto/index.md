@@ -4,7 +4,7 @@ layout: page
 author: Unknown
 published: 
 meta: 
-category: announcements
+category: عمومی
 ----------
 گروه کاربران گنو/لینوکس مشهد به شما نیاز دارد.
 
@@ -42,4 +42,3 @@ category: announcements
 
 ۱۲ یک راهنما تهیه کنید برای کسانی که می‌خواهند از لیست پستی خارج شوند و بلد
 نیستند.
-
