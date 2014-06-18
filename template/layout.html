@@ -36,16 +36,16 @@
               <!-- Carousel Slides / Quotes -->
               <div class="carousel-inner">
               
-                {% for slogan in source.src_files('source/slogans/', true, true) %}
+                {% for quote in source.src_files('source/quotes/', true, true) %}
                 <div class="item {{'active' if loop.index==1 }}">
                   <blockquote>
                     <div class="row">
                       <div class="col-sm-2 text-center">
-                        <img class="img-circle" src="{{ slogan.avatar }}" style="width: 100px;height:100px;">
+                        <img class="img-circle" src="{{ quote.avatar }}" style="width: 128px;height:128px;">
                       </div>
                       <div class="col-sm-10">
-                        {{ slogan.content | markdown }}
-                        <small>{{ slogan.author }}</small>
+                        {{ quote.content | markdown }}
+                        <small>{{ quote.author }}</small>
                       </div>
                     </div>
                   </blockquote>

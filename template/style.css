@@ -194,13 +194,14 @@ ul.top-navbar li p {
   display: block;
   color: #767676;
   font-size: 16px;
-  margin:5px 0px;
+  margin:5px 0px 10px;
 }
 .content h2 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .content .row.description p {
   text-align: justify;
+  margin-bottom: 10px;
 }
 .content .row.description .right_content {
 }
@@ -232,12 +233,22 @@ ul.top-navbar li p {
 .page h2 {
   margin-bottom: 0px;
 }
+
 .page h3 em,
 .page h2 em {
   display: block;
   color: #767676;
   font-size: 16px;
-  margin:5px 0px;
+  margin:15px 0px 20px;
+  padding: 2px 10px;
+  color: #FF8515;
+}
+.page h3 em:before,
+.page h2 em:before{
+  content: '\f112\0020';
+  font-family:FontAwesome;
+  font-size: 1em;
+  color: #FF8515;
 }
 
 pre {
@@ -291,6 +302,10 @@ pre code {
   border-top: 5px solid #FF7B1F;
   font-size: 14px;
   padding-top: 20px;
+}
+.latest_reports h4,
+.latest_reports a{
+  line-height: 1.5em;
 }
 .latest_reports p{
   text-align: justify;
