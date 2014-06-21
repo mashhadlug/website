@@ -374,11 +374,13 @@ pre code {
 {
   background: #333333;
 }
+/*
 #quote-carousel img
 {
   width: 250px;
   height: 100px
 }
+*/
 /* End carousel */
 
 .item blockquote {
