@@ -360,7 +360,7 @@ pre code {
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
 {
-  right: 50%;
+  /* right: 50%; */
   top: auto;
   bottom: 0px;
   margin-right: -19px;
@@ -368,11 +368,12 @@ pre code {
 /* Changes the color of the indicators */
 #quote-carousel .carousel-indicators li 
 {
-  background: #c0c0c0;
+  background: #969696;
+  border: none;
 }
 #quote-carousel .carousel-indicators .active 
 {
-  background: #333333;
+  background: white;
 }
 /*
 #quote-carousel img
@@ -387,6 +388,7 @@ pre code {
     border: none; 
     margin: 0;
     color: white;
+    text-align: justify;
 }
 .item blockquote small {
     color: red;
