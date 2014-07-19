@@ -6,6 +6,14 @@
     <description>MashhadLUG Rss</description>
     
     <item>
+      <title>گزارش جلسه ۱۵۲ام گروه کاربران لینوکس مشهد</title>
+      <link>http://mashhadlug.org//reports/session-152/index.html</link>
+      <description><![CDATA[<p>این جلسه در تاریخ ۱۸ تیر ۱۳۹۳ در محل شرکت پیشگامان متن باز برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:  </p>
+<h2>اخبار نرم‌افزارهای آزاد</h2>
+<h2>افزونه‌های فایرفاکس</h2>]]></description>
+    </item>
+  
+    <item>
       <title>گزارش جلسه ۱۵۱ام گروه کاربران لینوکس مشهد</title>
       <link>http://mashhadlug.org//reports/session-151/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۲۱ خرداد ۱۳۹۳ در محل برگزاری جلسات  در آموزشگاه دیتاسنتر شرق برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
@@ -215,18 +223,6 @@
       <title>هفتمین جشن روز آزادی نرم‌افزار</title>
       <link>http://mashhadlug.org//reports/news-2013-09-sfd-the-seventh-azad-uni/index.html</link>
       <description><![CDATA[]]></description>
-    </item>
-  
-    <item>
-      <title>گزارش جلسه ۱۳۵ام</title>
-      <link>http://mashhadlug.org//reports/session-135/index.html</link>
-      <description><![CDATA[<p>این جلسه در تاریخ ۳مهر ماه با حضور اعضا تشکیل گردید. در ابتدا اعضا به بازگویی
-اخبار روزهای گذشته و بحث و بررسی جدیدترین اتفاقات دنیای نرم‌افراز آزاد
-پرداختند.  در ادامه آقای بیژن ابراهیمی به معرفی برنامه
-<a href="http://www.cgsecurity.org/wiki/PhotoRec">PhotoRec</a> و چگونگی نحوه عملکرد این
-برنامه برای بازگرداندن اطلاعات از دست رفته پرداختند. در بیست دقیقه پایانی در
-خصوص جشن نرم‌افزار آزاد و نحوه همکاری گروه با دانشگاه آزاد بحث‌هایی صورت گرفت.
-جلسه  در ساعت ۱۹:۴۰ پایان یافت.</p>]]></description>
     </item>
   
   </channel>
