@@ -6,11 +6,34 @@
     <description>MashhadLUG Rss</description>
     
     <item>
+      <title>گزارش جلسه ۱۵۳ گروه کاربران لینوکس مشهد</title>
+      <link>http://mashhadlug.org//reports/session-153/index.html</link>
+      <description><![CDATA[<p>این جلسه در تاریخ ۱ مرداد ماه ۱۳۹۳ در محل شرکت پیشگامان متن باز برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
+<h2>اخبار نرم‌افزارهای آزاد</h2>
+<h2>افزونه‌های فایرفاکس بخش دوم <em>علیرضا حکم‌آبادی</em></h2>
+<h2>بحث آزاد</h2>]]></description>
+    </item>
+  
+    <item>
       <title>گزارش جلسه ۱۵۲ام گروه کاربران لینوکس مشهد</title>
       <link>http://mashhadlug.org//reports/session-152/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۱۸ تیر ۱۳۹۳ در محل شرکت پیشگامان متن باز برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:  </p>
 <h2>اخبار نرم‌افزارهای آزاد <em>مجید رمضانیان، محمد امین جهانی</em></h2>
-<h2>افزونه‌های فایرفاکس <em>مجید رمضانیان، محمد جواد بدیعی، آرش موسوی، بیژن ابراهیمی</em></h2>]]></description>
+<h2>افزونه‌های فایرفاکس</h2>
+<ul>
+<li>
+<h3>افزونه‌های NoScript و Ghostery <em>مجید رمضانیان</em></h3>
+</li>
+<li>
+<h3>افزونه‌ DuckDuckGo Plus <em>محمد جواد بدیعی</em></h3>
+</li>
+<li>
+<h3>افزونه‌های Abduction و DoNotTrackMe <em>آرش موسوی</em></h3>
+</li>
+<li>
+<h3>افزونه‌های Google/Yandex search link fix و FoxyProxy و UnloadTab <em>بیژن ابراهیمی</em></h3>
+</li>
+</ul>]]></description>
     </item>
   
     <item>
@@ -217,12 +240,6 @@
       <link>http://mashhadlug.org//reports/session-136/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۱۷ مهرماه ۱۳۹۲ در محل برگذاری جلسات گروه، واقع در خیابان
 امام‌رضا ۱۹ پلاک ۱۸۰ با حضور اعضای گروه برگذار شد.</p>]]></description>
-    </item>
-  
-    <item>
-      <title>هفتمین جشن روز آزادی نرم‌افزار</title>
-      <link>http://mashhadlug.org//reports/news-2013-09-sfd-the-seventh-azad-uni/index.html</link>
-      <description><![CDATA[]]></description>
     </item>
   
   </channel>
