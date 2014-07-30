@@ -1,0 +1,54 @@
+#DVD Ripping
+
+Transcoding or converting DVDs to video files without losing much of its quality.  
+
+---
+##Tools
+
+ - transcode: http://transcoding.org/  
+ - DVDRip:  http://www2.exit1.org/dvdrip/  
+ - k9copy: http://k9copy.sourceforge.net/  
+ - h264enc: http://h264enc.sourceforge.net/  
+ - ...: https://duckduckgo.com/?q=dvd+ripping+linux  
+
+---
+##h264enc
+
+A well written interactive shell script that uses mplayer's mencoder program and  
+x264 codec to do the job. It can also create matroska files.   
+
+After install/download run:  
+
+	$ h264enc -sc  
+
+to check if the dependencies you need are all there.
+Put DVD in the drive and run:  
+
+	$ h264enc -scan  
+
+and see what you got in that DVD. You can also try:  
+
+	$ mplayer -dvd-device $your_dvd_device_here dvd://$track_number  
+
+to find the track that should be used.  
+
+Now, DVD can be converted directly using h264enc or by first dumping it to a raw  
+mpeg video file and converting that file with h264enc. In dumping method you first  
+need to run:  
+
+	$ mplayer dvd://$track_number -dumpstream -dumpfile $movie_name_dumpfile.vob  
+h264enc needs at least two options to run. First the passmode and then the preset.  
+For more information do RTFM! (https://duckduckgo.com/?q=!wiki+RTFM). For example:  
+
+	$ h264enc -2p -p hq  
+
+will excute the program in 2-pass mode with High Quality preset and helps with a  
+step by step guide through the rest of the ripping and transcoding process.
+And that's it. h264enc is interactive, very intutitive itself and has a good manpage!  
+
+Good luck.
+
+
+---
+[[ !author acathur acathur@lavabit.com ]]
+

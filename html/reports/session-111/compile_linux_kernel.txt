@@ -1,0 +1,16 @@
+A. Download Kernel Source file
+	$ apt-get source linux-image-<kernel_version>
+	$ wget http://www.kernel.org/pub/linux/kernel/...linux-<kernel_version>.tar.bz2
+B. Extract the source file in /usr/src
+	$ tar xjf linux-2.6.8.1.tar.bz2
+C. Config new kernel
+	$ make oldconfig #OR
+	$ make menucofig
+D. Compile Kernel & Modules
+	$ make
+	$ make modules
+E. Install new Compiled Modules & Kernel
+	# make modules_install
+	# make install
+D. Update Grub
+	# update-grub
