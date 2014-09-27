@@ -11,7 +11,7 @@ class Update < Thor
   include Thor::Actions
 
   desc "next_session <date> <session number>", "updates index.md for next session"
-  option ":all", :type => :boolean, :banner => 'compile, commit and push', :aliases => 'a'
+  method_option :all, :type => :boolean, :banner => 'compile, commit and push', :aliases => '-a'
   def next_session(date, session)
     renderer = DummyRenderer.new
     renderer.next_session date, session
