@@ -10,6 +10,13 @@ TODOs
 * Write tests (oops!)
 * Add python 3 support(?)
 
+Dependencies
+------------
+
+```bash
+$ pip2 install jinja markdown yapsy
+```
+
 Usage
 ---------
 
