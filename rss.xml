@@ -6,7 +6,17 @@
     <description>MashhadLUG Rss</description>
     
     <item>
-      <title>گزارش جلسه ۱۵۶ گروه کاربران لینوکس مشهد</title>
+      <title>گزارش جلسه ۱۵۹ گروه کاربران لینوکس مشهد</title>
+      <link>http://mashhadlug.org//reports/session-159/index.html</link>
+      <description><![CDATA[<p>این جلسه در تاریخ ۳۰ام مهر ماه سال ۱۳۹۳ در محل فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
+<h2>اخبار نرم‌افزارهای آزاد</h2>
+<h2>معرفی ssh</h2>
+<h2>معرفی nfs</h2>
+<h2>بحث آزاد</h2>]]></description>
+    </item>
+  
+    <item>
+      <title>گزارش جلسه ۱۵۸ گروه کاربران لینوکس مشهد</title>
       <link>http://mashhadlug.org//reports/session-158/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۱۶ مهر ماه سال ۱۳۹۳ در محل فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
 <h2>اخبار نرم‌افزارهای آزاد</h2>
@@ -267,14 +277,6 @@
       <title>گزارش جلسه ۱۴۲ام</title>
       <link>http://mashhadlug.org//reports/session-142/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۲ بهمن ماه ۱۳۹۲ در محل برگذاری جلسات گروه، بین رضا ۱۹ و
-چهارراه بعثت (حاشیه خیابان) پلاک ۱۸۰ (آموزشگاه دیتاسنترشرق) با حضور اعضای گروه
-برگذار شد.</p>]]></description>
-    </item>
-  
-    <item>
-      <title>گزارش جلسه ۱۴۱ام</title>
-      <link>http://mashhadlug.org//reports/session-141/index.html</link>
-      <description><![CDATA[<p>این جلسه در تاریخ ۱۸ دی ماه ۱۳۹۲ در محل برگذاری جلسات گروه، بین رضا ۱۹ و
 چهارراه بعثت (حاشیه خیابان) پلاک ۱۸۰ (آموزشگاه دیتاسنترشرق) با حضور اعضای گروه
 برگذار شد.</p>]]></description>
     </item>
