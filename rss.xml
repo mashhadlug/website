@@ -6,6 +6,16 @@
     <description>MashhadLUG Rss</description>
     
     <item>
+      <title>گزارش جلسه ۱۶۱ گروه کاربران لینوکس مشهد</title>
+      <link>http://mashhadlug.org//reports/session-161/index.html</link>
+      <description><![CDATA[<p>این جلسه در تاریخ ۲۸ آبان ماه سال ۱۳۹۳ در محل فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
+<h2>اخبار نرم‌افزارهای آزاد</h2>
+<h2>از فلسفه‌ی یونیکس تا لینوکس <em>بیژن ابراهیمی</em></h2>
+<h2>رمزنگاری کلید عوموی و خصوصی، آشنایی با CA و سرویس letsencrypt <em>مهدی عطائیان</em></h2>
+<h2>بحث آزاد</h2>]]></description>
+    </item>
+  
+    <item>
       <title>گزارش جلسه ۱۶۰ گروه کاربران لینوکس مشهد</title>
       <link>http://mashhadlug.org//reports/session-160/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۱۴ آبان ماه سال ۱۳۹۳ در محل فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
@@ -270,14 +280,6 @@
       <title>گزارش جلسه ۱۴۴ام</title>
       <link>http://mashhadlug.org//reports/session-144/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۳۰ بهمن ماه ۱۳۹۲ در محل برگذاری جلسات گروه، بین رضا ۱۹ و
-چهارراه بعثت (حاشیه خیابان) پلاک ۱۸۰ (آموزشگاه دیتاسنترشرق) با حضور اعضای گروه
-برگذار شد.</p>]]></description>
-    </item>
-  
-    <item>
-      <title>گزارش جلسه ۱۴۳ام</title>
-      <link>http://mashhadlug.org//reports/session-143/index.html</link>
-      <description><![CDATA[<p>این جلسه در تاریخ ۱۶ بهمن ماه ۱۳۹۲ در محل برگذاری جلسات گروه، بین رضا ۱۹ و
 چهارراه بعثت (حاشیه خیابان) پلاک ۱۸۰ (آموزشگاه دیتاسنترشرق) با حضور اعضای گروه
 برگذار شد.</p>]]></description>
     </item>
