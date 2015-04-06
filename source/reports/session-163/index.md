@@ -9,12 +9,13 @@ layout: page
 
 ## اخبار نرم‌افزارهای آزاد *محمدامین جهانی*
 
-در ابتدای جلسه اعضا گروه به گفتگو و بحث در مورد تازه‌ترین اخبار نرم‌افزارهای آزاد پرداختند.
+در ابتدای جلسه اعضای گروه به گفتگو و بحث در مورد تازه‌ترین اخبار نرم‌افزارهای آزاد پرداختند.
 
 ##ساختار شبکه تور *مهدی عطاییان*
 
 در این ارایه آقای مهدی عطاییان به بررسی ساختار شبکه‌ی تور پرداختند.
-به درخواست دوستان این ارايه ضبط گردید. برای مشاهده ویدیو در یوتیوب[ اینجا](https://www.youtube.com/watch?v=qjcjIirVi1I&list=PLoxPJBU3OSZktpZyuJNQ47kRs5TybPGCB) را کلیک کنید و برای مشاهده ویدیوها در سایت آپارت بر روی هر بخش کلیک کنید: ([بخش اول](http://www.aparat.com/v/WCJ3w)، [بخش دوم](http://www.aparat.com/v/yZ5Mo)، [بخش سوم](http://www.aparat.com/v/HaV1s)، [بخش چهارم](http://www.aparat.com/v/eTnlg))
+به درخواست دوستان این ارايه ضبط گردید. برای مشاهده ویدیو در یوتیوب[ اینجا](https://www.youtube.com/watch?v=qjcjIirVi1I&list=PLoxPJBU3OSZktpZyuJNQ47kRs5TybPGCB) را کلیک کنید و برای مشاهده ویدیوها در سایت آپارت بر روی هر بخش کلیک کنید: [بخش اول](http://www.aparat.com/v/WCJ3w)، [بخش دوم](http://www.aparat.com/v/yZ5Mo)، [بخش سوم](http://www.aparat.com/v/HaV1s)، [بخش چهارم](http://www.aparat.com/v/eTnlg).
+
 اسلایدهای ارایه را می‌توانید از [اینجا](/reports/session-163/tor.pdf) دانلود کنید و یا در وبسایت [اسلایدشیر](http://www.slideshare.net/ataeyan/onion-network-architecture) ببینید.
 
 ## بحث آزاد
