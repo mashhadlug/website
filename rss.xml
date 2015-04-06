@@ -6,6 +6,15 @@
     <description>MashhadLUG Rss</description>
     
     <item>
+      <title>گزارش جلسه ۱۶۳ام گروه کاربران لینوکس مشهد</title>
+      <link>http://mashhadlug.org//reports/session-163/index.html</link>
+      <description><![CDATA[<p>این جلسه در تاریخ ۲۶ آذر ماه سال ۱۳۹۳ در محل فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
+<h2>اخبار نرم‌افزارهای آزاد <em>محمدامین جهانی</em></h2>
+<h2>ساختار شبکه تور <em>مهدی عطاییان</em></h2>
+<h2>بحث آزاد</h2>]]></description>
+    </item>
+  
+    <item>
       <title>گزارش جلسه ۱۶۲ گروه کاربران لینوکس مشهد</title>
       <link>http://mashhadlug.org//reports/session-162/index.html</link>
       <description><![CDATA[<p>این جلسه در تاریخ ۱۲ آذر ماه سال ۱۳۹۳ در محل فرهنگسرای فناوری و رسانه برگزار شد. مباحثی که در این جلسه به آنها پرداخته شد را در زیر مشاهده خواهید نمود:</p>
@@ -276,14 +285,6 @@
 <h3>زمان برگذاری جلسه آینده گروه در سال جدید</h3>
 </li>
 </ul>]]></description>
-    </item>
-  
-    <item>
-      <title>گزارش جلسه ۱۴۵ام</title>
-      <link>http://mashhadlug.org//reports/session-145/index.html</link>
-      <description><![CDATA[<p>این جلسه در تاریخ ۷ اسفند ماه ۱۳۹۲ در محل برگذاری جلسات گروه، بین رضا ۱۹ و
-چهارراه بعثت (حاشیه خیابان) پلاک ۱۸۰ (آموزشگاه دیتاسنترشرق) با حضور اعضای گروه
-برگذار شد.</p>]]></description>
     </item>
   
   </channel>
